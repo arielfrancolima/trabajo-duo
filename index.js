@@ -10,3 +10,21 @@ function lista(lista){
 function lista(lsita1){
     lista.map 
 }
+
+//Ejercicio 2 
+function definirFechas (){
+    let fecha = new Date ();
+    let dia = fecha.getDate();
+    let mes = fecha.getMonth();
+    let anio = fecha.getFullYear(); 
+
+    if (dia < 10) { dia= '0'+ dia );
+    if (mes < 10) {mes = '-'}
+    }
+}
+
+
+
+
+
+}
