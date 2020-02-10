@@ -22,7 +22,7 @@ function definirFechas (){
     if (dia < 10) { dia= '0'+ dia);
     if (mes < 10) {mes = '-'}
     }
-*/
+
 //Ejercicio 3 
 
 
@@ -34,6 +34,27 @@ const year = 366;
 anio - cantDias;
 
 console.log (year - day);
-    
-}
 
+}
+*/
+// Ejercicio 4 
+
+funcion compararObjetos(){
+    let objeto1 = {
+        nombre:  nombre,
+        Apellido:  Apellido,
+        Edad:  Edad,
+        
+    }
+    let objeto2 = { 
+        nombre:  nombre, 
+        apellido:  apellido,
+        edad:  edad,
+    }
+    if (objeto1 === objeto2){
+        console.log('Los keys son iguales');
+        }else{
+        console.log('Los keys no son iguales');
+        }
+
+}
